@@ -53,6 +53,7 @@ body {
   font-size: 15px;
   border-radius: 10px;
   border: 1px solid #dddddd;
+  outline: none;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
