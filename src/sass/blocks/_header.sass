@@ -1,5 +1,5 @@
 .header
-	background-color: #f5f5f5
+	background-color: $second-color
 	padding: 50px 0
 	&-wrap
 		display: flex
@@ -24,12 +24,14 @@
 			display: flex
 			align-items: center
 			margin-bottom: 25px
+			&:last-child
+				margin-bottom: 0
 		&__img
 			display: flex
 			justify-content: center
 			align-items: center
 			margin-right: 30px
-			padding: 8px
+			padding: 20px
 			width: 20px
 			height: 20px
 			border: 2px solid $main-color

@@ -1,13 +1,30 @@
+*
+	box-sizing: border-box
 body
 	+reg
 	color: $text-color
 .container
 	width: 1170px
 	margin: auto
+.phone
+	display: block
+	text-decoration: none
+	color: $text-color
+	+bold	
 .button
+	+bold
 	border: none
 	border-radius: 10px
 	background-color: $main-color
+	&:hover
+		background-color: lighten($main-color, 10%)
+		cursor: pointer
+.input
+	padding: 25px 30px
+	color: $input_text-color
+	font-size: 15px
+	border-radius: 10px
+	border: 1px solid $input_border-color
 @media (min-width: 992px) and (max-width: 1199px)
 	.container
 		width: 960px
